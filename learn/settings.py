@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'rest_framework', #for djangorestframework that we have installed 
+    'rest_framework', #for djangorestframework that we have installed 
     'api',# the app that we have created 
 ]
 
@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'learn.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql', # for using postgresql pgadmin4
         'NAME': 'notes_crud_app',
         'USER': 'postgres',
         'PASSWORD': 'root',
